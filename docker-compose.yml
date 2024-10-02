@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   api:
-    container_name: shopper_api
+    container_name: shopper_app
     build:
       context: .
       dockerfile: Dockerfile

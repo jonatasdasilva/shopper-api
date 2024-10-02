@@ -78,7 +78,7 @@ api.register(computing);
 // Handler for capture errors
 api.setErrorHandler(errorHandler);
 
-api.listen({ port: env.PORT }).then(() => {
+api.listen({ port: env.PORT, host: '0.0.0.0' }).then(() => {
   api.log.info(`[API SHOPPER] - API SHOPPER iniciada!`);
   console.log(`[API SHOPPER ${dayjs(new Date())}] - API SHOPPER iniciada!`);
 });

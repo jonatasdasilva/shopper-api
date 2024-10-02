@@ -234,3 +234,62 @@
 [🕰 02-10-2024 01:26:52 AM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:8778[39m
 [🕰 02-10-2024 01:26:52 AM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8778[39m
 [🕰 02-10-2024 01:26:52 AM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 02-10-2024 02:44:36 AM UTC] [32mINFO[39m: [36mServer listening at http://0.0.0.0:8778[39m
+[🕰 02-10-2024 02:44:36 AM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 02-10-2024 02:46:44 AM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-1"
+    req: {
+      "method": "GET",
+      "url": "/",
+      "headers": {
+        "host": "localhost:8778",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "upgrade-insecure-requests": "1",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "sec-fetch-site": "none",
+        "sec-fetch-mode": "navigate",
+        "sec-fetch-user": "?1",
+        "sec-fetch-dest": "document",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
+      }
+    }
+[🕰 02-10-2024 02:46:44 AM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-1"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 2.5489560002461076
+[🕰 02-10-2024 02:46:45 AM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-2"
+    req: {
+      "method": "GET",
+      "url": "/favicon.ico",
+      "headers": {
+        "host": "localhost:8778",
+        "connection": "keep-alive",
+        "sec-ch-ua": "\"Chromium\";v=\"128\", \"Not;A=Brand\";v=\"24\", \"Google Chrome\";v=\"128\"",
+        "sec-ch-ua-mobile": "?0",
+        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "sec-ch-ua-platform": "\"Linux\"",
+        "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "sec-fetch-site": "same-origin",
+        "sec-fetch-mode": "no-cors",
+        "sec-fetch-dest": "image",
+        "referer": "http://localhost:8778/",
+        "accept-encoding": "gzip, deflate, br, zstd",
+        "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7"
+      }
+    }
+[🕰 02-10-2024 02:46:45 AM UTC] [32mINFO[39m: [36mRoute GET:/favicon.ico not found[39m
+    reqId: "req-2"
+[🕰 02-10-2024 02:46:45 AM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-2"
+    res: {
+      "statusCode": 404
+    }
+    responseTime: 0.788052000105381
