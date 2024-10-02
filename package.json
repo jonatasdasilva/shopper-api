@@ -1,0 +1,43 @@
+{
+    "name": "shopper-api",
+    "version": "1.0.0",
+    "main": "server.ts",
+    "scripts": {
+        "build": "tsc",
+        "start": "tsx --env-file=.env server.ts",
+        "production": "tsx --env-file .env server.ts",
+        "dev": "tsx watch --env-file .env server.ts",
+        "seeds": "tsx ./core/data/seeds.ts"
+    },
+    "keywords": [
+        "API",
+        "shopper",
+        "analysis",
+        "water",
+        "gas"
+    ],
+    "author": "Jônatas da Silva",
+    "license": "ISC",
+    "description": "API para analise de imagens de medição de água e gás.",
+    "devDependencies": {
+        "@types/node": "^22.5.0",
+        "@types/pino": "^7.0.4",
+        "pino-pretty": "^11.2.2",
+        "prisma": "^5.20.0",
+        "tsx": "^4.17.0",
+        "typescript": "^5.5.4"
+    },
+    "dependencies": {
+        "@fastify/cors": "^9.0.1",
+        "@fastify/static": "^7.0.1",
+        "@google/generative-ai": "^0.17.1",
+        "@prisma/client": "^5.20.0",
+        "dayjs": "^1.11.13",
+        "fastify": "^4.28.1",
+        "fastify-type-provider-zod": "^2.0.0",
+        "js-base64": "^3.7.7",
+        "node-fetch": "^3.3.2",
+        "pino": "^9.3.2",
+        "zod": "^3.23.8"
+    }
+}
