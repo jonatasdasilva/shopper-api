@@ -1,0 +1,236 @@
+[🕰 01-10-2024 19:28:56 PM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:8778[39m
+[🕰 01-10-2024 19:28:56 PM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8778[39m
+[🕰 01-10-2024 19:28:56 PM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 01-10-2024 19:29:15 PM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:8778[39m
+[🕰 01-10-2024 19:29:15 PM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8778[39m
+[🕰 01-10-2024 19:29:15 PM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 01-10-2024 19:34:43 PM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:8778[39m
+[🕰 01-10-2024 19:34:43 PM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8778[39m
+[🕰 01-10-2024 19:34:43 PM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 01-10-2024 19:34:57 PM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-1"
+    req: {
+      "method": "GET",
+      "url": "/c2b724eb-ebb7-48e0-ae9e-1660ad823b38/list",
+      "headers": {
+        "user-agent": "PostmanRuntime/7.42.0",
+        "accept": "*/*",
+        "postman-token": "6f42693a-6def-4db6-8931-6de6671ea170",
+        "host": "localhost:8778",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      }
+    }
+[🕰 01-10-2024 19:34:57 PM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-1"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 6.542791999876499
+[🕰 01-10-2024 19:35:02 PM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-2"
+    req: {
+      "method": "GET",
+      "url": "/c9eda38c-b5c8-4e46-9f91-a7067f3c558b/list?measure_type=WATER",
+      "headers": {
+        "user-agent": "PostmanRuntime/7.42.0",
+        "accept": "*/*",
+        "postman-token": "fc44329a-7941-4a0a-afe5-6e149b895d38",
+        "host": "localhost:8778",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      }
+    }
+[🕰 01-10-2024 19:35:02 PM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-2"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 1.3335220031440258
+[🕰 01-10-2024 20:06:38 PM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-3"
+    req: {
+      "method": "GET",
+      "url": "/",
+      "headers": {
+        "user-agent": "PostmanRuntime/7.42.0",
+        "accept": "*/*",
+        "postman-token": "550b1e9c-b3db-46bd-9043-41a448584348",
+        "host": "localhost:8778",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      }
+    }
+[🕰 01-10-2024 20:06:38 PM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-3"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 0.27579599991440773
+[🕰 01-10-2024 20:06:41 PM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-4"
+    req: {
+      "method": "GET",
+      "url": "/c9eda38c-b5c8-4e46-9f91-a7067f3c558b/list",
+      "headers": {
+        "user-agent": "PostmanRuntime/7.42.0",
+        "accept": "*/*",
+        "postman-token": "ab4096f7-0655-4342-9a52-48021fc9c0c6",
+        "host": "localhost:8778",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      }
+    }
+[🕰 01-10-2024 20:06:41 PM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-4"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 1.1540170013904572
+[🕰 01-10-2024 20:06:47 PM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-5"
+    req: {
+      "method": "GET",
+      "url": "/c9eda38c-b5c8-4e46-9f91-a7067f3c558b/list?measure_type=GAS",
+      "headers": {
+        "user-agent": "PostmanRuntime/7.42.0",
+        "accept": "*/*",
+        "postman-token": "872d3c78-fc6e-4820-8024-16a9659b8452",
+        "host": "localhost:8778",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      }
+    }
+[🕰 01-10-2024 20:06:47 PM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-5"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 0.9961569979786873
+[🕰 01-10-2024 20:06:50 PM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-6"
+    req: {
+      "method": "GET",
+      "url": "/c9eda38c-b5c8-4e46-9f91-a7067f3c558b/list?measure_type=WATER",
+      "headers": {
+        "user-agent": "PostmanRuntime/7.42.0",
+        "accept": "*/*",
+        "postman-token": "0bc22578-d2d3-488b-91a9-03f4d58daa78",
+        "host": "localhost:8778",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      }
+    }
+[🕰 01-10-2024 20:06:50 PM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-6"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 0.909255001693964
+[🕰 01-10-2024 20:06:55 PM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-7"
+    req: {
+      "method": "GET",
+      "url": "/c2b724eb-ebb7-48e0-ae9e-1660ad823b38/list",
+      "headers": {
+        "user-agent": "PostmanRuntime/7.42.0",
+        "accept": "*/*",
+        "postman-token": "7200d715-eea9-47a8-a491-40fef780ef2c",
+        "host": "localhost:8778",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      }
+    }
+[🕰 01-10-2024 20:06:55 PM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-7"
+    res: {
+      "statusCode": 200
+    }
+    responseTime: 0.9673079997301102
+[🕰 01-10-2024 20:06:58 PM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-8"
+    req: {
+      "method": "GET",
+      "url": "/c9eda38c-b5c8-4e46-9f91-a7067f3c558b/list?measure_type=water",
+      "headers": {
+        "user-agent": "PostmanRuntime/7.42.0",
+        "accept": "*/*",
+        "postman-token": "0af5ec6e-84d9-49b3-b059-e87b1059408d",
+        "host": "localhost:8778",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      }
+    }
+[🕰 01-10-2024 20:06:58 PM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-8"
+    res: {
+      "statusCode": 400
+    }
+    responseTime: 0.9980220012366772
+[🕰 01-10-2024 20:07:01 PM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-9"
+    req: {
+      "method": "GET",
+      "url": "/c2b724eb-ebb7-48e0-ae9e-1660ad823b38/list?measure_type=GAS",
+      "headers": {
+        "user-agent": "PostmanRuntime/7.42.0",
+        "accept": "*/*",
+        "postman-token": "dff3457c-1eb2-472f-a867-a99d777fd35f",
+        "host": "localhost:8778",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      }
+    }
+[🕰 01-10-2024 20:07:01 PM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-9"
+    res: {
+      "statusCode": 404
+    }
+    responseTime: 1.0057610012590885
+[🕰 01-10-2024 20:07:18 PM UTC] [32mINFO[39m: [36mincoming request[39m
+    reqId: "req-a"
+    req: {
+      "method": "GET",
+      "url": "/c2b724eb-ebb7-48e0-ae9e-1660ad823b38/list?measure_type=GAS",
+      "headers": {
+        "user-agent": "PostmanRuntime/7.42.0",
+        "accept": "*/*",
+        "postman-token": "78ab03ec-4131-496c-bafa-4619d3941f56",
+        "host": "localhost:8778",
+        "accept-encoding": "gzip, deflate, br",
+        "connection": "keep-alive"
+      }
+    }
+[🕰 01-10-2024 20:07:18 PM UTC] [32mINFO[39m: [36mrequest completed[39m
+    reqId: "req-a"
+    res: {
+      "statusCode": 404
+    }
+    responseTime: 0.953431997448206
+[🕰 01-10-2024 23:14:42 PM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:8778[39m
+[🕰 01-10-2024 23:14:42 PM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8778[39m
+[🕰 01-10-2024 23:14:42 PM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 01-10-2024 23:34:31 PM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:8778[39m
+[🕰 01-10-2024 23:34:31 PM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8778[39m
+[🕰 01-10-2024 23:34:31 PM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 02-10-2024 00:16:11 AM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:8778[39m
+[🕰 02-10-2024 00:16:11 AM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8778[39m
+[🕰 02-10-2024 00:16:11 AM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 02-10-2024 00:23:07 AM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:8778[39m
+[🕰 02-10-2024 00:23:07 AM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8778[39m
+[🕰 02-10-2024 00:23:07 AM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 02-10-2024 00:26:52 AM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:8778[39m
+[🕰 02-10-2024 00:26:52 AM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8778[39m
+[🕰 02-10-2024 00:26:52 AM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 02-10-2024 00:37:25 AM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:3000[39m
+[🕰 02-10-2024 00:37:25 AM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:3000[39m
+[🕰 02-10-2024 00:37:25 AM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 02-10-2024 00:40:54 AM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:3000[39m
+[🕰 02-10-2024 00:40:54 AM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:3000[39m
+[🕰 02-10-2024 00:40:54 AM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 02-10-2024 00:45:42 AM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:8778[39m
+[🕰 02-10-2024 00:45:42 AM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8778[39m
+[🕰 02-10-2024 00:45:42 AM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
+[🕰 02-10-2024 01:26:52 AM UTC] [32mINFO[39m: [36mServer listening at http://[::1]:8778[39m
+[🕰 02-10-2024 01:26:52 AM UTC] [32mINFO[39m: [36mServer listening at http://127.0.0.1:8778[39m
+[🕰 02-10-2024 01:26:52 AM UTC] [32mINFO[39m: [36m[API SHOPPER] - API SHOPPER iniciada![39m
