@@ -1,0 +1,24 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Meter {
+  customer_code    String   @default(uuid())
+  measure_uuid     String   @id @default(uuid())
+  measure_datetime String
+  measure_value    Int
+  measure_month    Int
+  measure_type     String
+  has_confirmed    Boolean?
+  image_url        String
+
+  @@map("meter")
+}
