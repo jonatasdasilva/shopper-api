@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  api:
+    container_name: shopper_api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    volumes:
+      - .:/app
+    ports:
+      - 8778:8778
+    restart: unless-stopped
