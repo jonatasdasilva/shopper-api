@@ -1,0 +1,10 @@
+# folders
+
+.vscode/
+node_modules/
+
+
+
+# files
+.env
+uploads/*.*
