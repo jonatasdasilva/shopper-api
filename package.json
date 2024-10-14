@@ -6,7 +6,7 @@
         "build": "tsc",
         "start": "tsx --env-file=.env server.ts",
         "production": "tsx --env-file .env server.ts",
-        "dev": "tsx watch --env-file .env server.ts",
+        "dev": "npx tsx watch --env-file .env server.ts",
         "seeds": "tsx ./core/data/seeds.ts"
     },
     "keywords": [

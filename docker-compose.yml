@@ -2,13 +2,13 @@ version: '3.8'
 
 services:
   api:
-    container_name: shopper_app
+    container_name: shopper
     build:
       context: .
       dockerfile: Dockerfile
-    
     volumes:
       - .:/app
     ports:
-      - 8778:8778
+      - 8668:8668
     restart: unless-stopped
+    #command: npm run dev

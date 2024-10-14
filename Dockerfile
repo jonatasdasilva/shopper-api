@@ -1,9 +1,9 @@
-FROM node:20.17.0
-RUN mkdir /app
+FROM node:20.18.0-bookworm
+#RUN mkdir /app
 WORKDIR /app
-COPY .env /app
-COPY package.json /app
-RUN npm install && npm run build
+COPY .env .
+COPY package.json .
+RUN npm install && npm install
 COPY . .
-EXPOSE 8778
-CMD ["npm", "run", "production"]
+EXPOSE 8668
+CMD ["npm", "run", "dev"]
