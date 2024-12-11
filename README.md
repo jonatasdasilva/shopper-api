@@ -65,7 +65,7 @@ A requisição para esse endpoint deve ser de acordo com o mostrado abaixo:
   "image": "base64",
   "customer_code": "string",
   "measure_datetime": "datetime",
-  "measure_type": "WATER" | "GAS"
+  "measure_type": ["WATER", "GAS"]
 }
 ```
 
@@ -105,7 +105,7 @@ A requisição para a confirmação ou atualização deve ser como mostrada abai
 ```JSON
 {
   "measure_uuid": "string",
-  "confirmed_value": integer
+  "confirmed_value": number
 }
 ```
 
